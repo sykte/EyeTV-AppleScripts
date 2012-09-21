@@ -13,7 +13,7 @@ For more information please visit [EyeTV's website](http://support.elgato.com/in
 
 ## Triggerscripts
 RecordingDone
-: The RecordingDone trigger script will be executed once a recording has finished.  Once started the script will sleep for 1 minute.  This helps ensure EyeTV has enough time to start exporting.  The script will then check if a recording will begin within the next 5 minutes, if it finds a scheduled recording the script exits without taking action.  The script will of course start all over again upon the completion of the next recording.  However, if nothing is scheduled the script then checks if EyeTV is currently exporting.  If it is, this script will sleep until exporting is complete.  Once done it will then prompt to either abort shutdown or shutdown immediately.  The prompt is given 3 minutes and if no action is taken the script will execute a shutdown command.
+: The RecordingDone trigger script will be executed once a recording has finished.  Once started the script will sleep for 1 minute.  This helps ensure EyeTV has enough time to start exporting.  The script will then check if a recording will begin within the next 5 minutes, if it finds a scheduled recording the script exits without taking action.  The script will of course start all over again upon the completion of the next recording.  However, if nothing is scheduled the script then checks if EyeTV is currently exporting.  If it is, the script will sleep until exporting is complete.  Once done it will then prompt to either abort shutdown or shutdown immediately.  The prompt is given 3 minutes and if no action is taken the script will execute a shutdown command.
 
 
 ## Install - Compiled Scripts
